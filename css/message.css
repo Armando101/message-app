@@ -26,9 +26,18 @@
 }
 
 .message-status {
+  inline-size: 1rem;
+  block-size: 1rem;
+}
+
+.message-status.is-doubleCheck {
+  background-image: url("../assets/images/double-check.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .message-details {
   display: flex;
   justify-content: end;
+  gap: 0.25rem;
 }
