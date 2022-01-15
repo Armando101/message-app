@@ -1,0 +1,34 @@
+.message {
+  background-color: var(--white);
+  padding: 0.5rem;
+  font: var(--body-16regular);
+}
+
+.message.is-receiver {
+  background-color: var(--white);
+  align-self: flex-start;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.message.is-sender {
+  background-color: var(--green-1);
+  align-self: flex-end;
+  border-radius: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.message-text {
+  margin: 0;
+}
+
+.message-date {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.message-status {
+}
+
+.message-details {
+  display: flex;
+  justify-content: end;
+}

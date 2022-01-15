@@ -1,8 +1,22 @@
 .user {
   display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.user-info {
-  display: flex;
-  flex-direction: column;
+.user p span {
+  display: block;
+}
+
+.user-name {
+  font: var(--body-16regular);
+}
+
+.user-status {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.user img {
+  border-radius: 50%;
 }
