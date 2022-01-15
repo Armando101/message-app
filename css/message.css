@@ -8,12 +8,46 @@
   background-color: var(--white);
   align-self: flex-start;
   border-radius: 0 0.5rem 0.5rem 0.5rem;
+  position: relative;
+}
+
+.message.is-receiver::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: 100%;
+
+  inline-size: 12px;
+  block-size: 12px;
+
+  box-sizing: border-box;
+  border-inline-start: 6px solid transparent;
+  border-inline-end: 6px solid white;
+  border-block-start: 6px solid white;
+  border-block-end: 6px solid transparent;
 }
 
 .message.is-sender {
   background-color: var(--green-1);
   align-self: flex-end;
   border-radius: 0.5rem 0 0.5rem 0.5rem;
+  position: relative;
+}
+
+.message.is-sender::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 100%;
+
+  inline-size: 12px;
+  block-size: 12px;
+
+  box-sizing: border-box;
+  border-inline-start: 6px solid var(--green-1);
+  border-inline-end: 6px solid transparent;
+  border-block-start: 6px solid var(--green-1);
+  border-block-end: 6px solid transparent;
 }
 
 .message-text {
