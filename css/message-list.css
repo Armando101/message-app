@@ -1,0 +1,4 @@
+.message-list {
+  border: 1px solid blue;
+  flex-grow: 1;
+}

@@ -1,0 +1,15 @@
+@import "user.css";
+@import "header.css";
+@import "chat.css";
+@import "action-list.css";
+@import "message-list.css";
+
+:root {
+  --headerSize: 80px;
+  --actionSize: 80px;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
