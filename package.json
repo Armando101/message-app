@@ -1,0 +1,28 @@
+{
+  "name": "message-app",
+  "version": "1.0.0",
+  "description": "App to chat with family and friends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armando101/message-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armando101/message-app/issues"
+  },
+  "homepage": "https://github.com/Armando101/message-app#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-nested": "^5.0.6"
+  },
+  "devDependencies": {
+    "postcss-import": "^14.0.2"
+  }
+}
