@@ -1,0 +1,10 @@
+.layout {
+  --firstColumnSize: 27.5rem;
+
+  border: 2px solid red;
+  block-size: 100vh;
+
+  display: grid;
+  grid-template-columns: var(--firstColumnSize) 1fr;
+  grid-template-areas: "user-list chat";
+}
