@@ -12,58 +12,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./components/index.js"></script>
   </head>
   <body>
     <div class="layout">
       <div class="userList"></div>
       <div class="chat">
-        <div class="header">
-          <div class="header-primary">
-            <div class="user">
-              <img
-                width="48"
-                height="48"
-                src="./assets/images/user.jpg"
-                alt="Foto de perfil de Josefina"
-              />
-              <p>
-                <span class="user-name">Josefa</span>
-                <span class="user-status">En Línea</span>
-              </p>
-            </div>
-          </div>
-
-          <div class="header-secondary">
-            <button class="button">
-              <i>search</i>
-            </button>
-          </div>
-        </div>
-        <div class="message-list">
-          <div class="date">Jueves</div>
-
-          <div class="message is-receiver">
-            <div class="message-body">
-              <p class="message-text">Estoy recibiendo este mensaje</p>
-              <div class="message-details">
-                <span class="message-date">09:28 am</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="message is-sender">
-            <div class="message-body">
-              <p class="message-text">Estoy mandando este mensaje</p>
-              <div class="message-details">
-                <span class="message-date">09:28 am</span>
-                <span class="message-status is-doubleCheck"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="date">Viernes</div>
-        </div>
-
+        <wa-header></wa-header>
+        <wa-message-list></wa-message-list>
         <div class="action-list">Actions</div>
       </div>
     </div>
