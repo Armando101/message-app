@@ -6,7 +6,6 @@
 
 .message.is-receiver {
   background-color: var(--white);
-  align-self: flex-start;
   border-radius: 0 0.5rem 0.5rem 0.5rem;
   position: relative;
 }
@@ -29,7 +28,6 @@
 
 .message.is-sender {
   background-color: var(--green-1);
-  align-self: flex-end;
   border-radius: 0.5rem 0 0.5rem 0.5rem;
   position: relative;
 }
