@@ -16,9 +16,17 @@
   </head>
   <body>
     <div class="layout">
-      <div class="userList"></div>
+      <div class="userList">
+        <wa-header image="./assets/images/current-user.jpg"> </wa-header>
+      </div>
       <div class="chat">
-        <wa-header></wa-header>
+        <wa-header
+          search
+          image="./assets/images/user.jpg"
+          name="Josefa"
+          status="'En línea'"
+        >
+        </wa-header>
         <wa-message-list></wa-message-list>
         <wa-actions></wa-actions>
       </div>
