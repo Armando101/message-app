@@ -12,7 +12,7 @@ export class Header extends HTMLElement {
     const html = `
       <header class="header">
         <div class="header-primary">
-          <wa-user></wa-user>
+          <wa-user-hero></wa-user-hero>
         </div>
 
         <div class="header-secondary">
