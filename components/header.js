@@ -16,9 +16,7 @@ export class Header extends HTMLElement {
         </div>
 
         <div class="header-secondary">
-          <button class="button">
-            <i>search</i>
-          </button>
+           <i class="icon-search"></i>
         </div>
       </header>`;
     return html;
