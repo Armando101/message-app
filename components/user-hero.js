@@ -15,7 +15,7 @@ export class UserHero extends HTMLElement {
     if (status !== "undefined") {
       this.addStatus(name, status);
     }
-    initStyles("user", this.shadowRoot);
+    initStyles("user-hero", this.shadowRoot);
   }
 
   addStatus(name, status) {

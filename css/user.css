@@ -1,22 +1,33 @@
 .user {
   display: flex;
+  padding-inline: 1rem;
+  padding-block: 1.125rem;
+  gap: 0.5rem;
+}
+
+.user-header {
+  display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+  margin-block-end: 0.5rem;
 }
 
-.user p span {
-  display: block;
+.user-header p,
+.user-header h4 {
+  margin: 0;
 }
 
-.user-name {
+.user-info {
+  flex-grow: 1;
+}
+
+.user-info h4 {
   font: var(--body-16regular);
+  font-weight: bold;
 }
 
-.user-status {
+.user-info p {
   font: var(--caption-12regular);
   color: var(--grey);
-}
-
-.user img {
-  border-radius: 50%;
+  margin: 0;
 }
