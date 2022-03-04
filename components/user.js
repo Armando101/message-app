@@ -8,19 +8,23 @@ export class User extends HTMLElement {
   }
 
   connectedCallback() {
+    const image = this.attributes.image?.value;
+    const name = this.attributes.name?.value;
+    const day = this.attributes.day?.value;
+    this.shadowRoot.innerHTML = this.htmlTemplate(image, name, day);
     initStyles("user", this.shadowRoot);
   }
 
-  htmlTemplate() {
+  htmlTemplate(image, name, day) {
     return `  
     <div class="user">
         <div class="user-image">
-          <img src="./assets/images/current-user.jpg" alt="user" />
+          <img src=${image} alt=${name} />
         </div>
         <div class="user-info">
           <div class="user-header">
-            <h4>Ingrid</h4>
-            <p>Viernes</p>
+            <h4>${name}</h4>
+            <p>${day}</p>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing affex ...
